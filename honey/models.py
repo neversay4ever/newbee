@@ -134,8 +134,8 @@ class HoneyAll(models.Model):
     honey_sample_note = models.CharField(_("样本备注"), max_length=50, null=True, blank=True)
 
     class Meta:
-        verbose_name = '蜂蜜全部信息'
-        verbose_name_plural = '蜂蜜全部信息'
+        verbose_name = '大表全部蜂蜜信息'
+        verbose_name_plural = '大表全部蜂蜜信息'
         
     def __str__(self):
         return f'allinfo-{self.honey_sample_id}'

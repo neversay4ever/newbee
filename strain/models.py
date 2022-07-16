@@ -142,8 +142,8 @@ class StrainAll(models.Model):
     strain_storage_date = models.DateField(_("菌株存储时间"), auto_now=False, auto_now_add=False, null=True, blank=True)
 
     class Meta:
-        verbose_name = '菌株全部信息'
-        verbose_name_plural = '菌株全部信息'
+        verbose_name = '大表全部菌株信息'
+        verbose_name_plural = '大表全部菌株信息'
         
     def __str__(self):
         return f'allinfo-{self.strain_id}'

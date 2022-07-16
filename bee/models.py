@@ -259,8 +259,8 @@ class BeeAll(models.Model):
     leg_storage_location = models.CharField(_("足组织保存位置"), max_length=50, null=True, blank=True)
 
     class Meta:
-        verbose_name = '蜜蜂全部信息'
-        verbose_name_plural = '蜜蜂全部信息'
+        verbose_name = '大表全部蜜蜂信息'
+        verbose_name_plural = '大表全部蜜蜂信息'
         
     def __str__(self):
         return f'allinfo-{self.sample_id}'  
